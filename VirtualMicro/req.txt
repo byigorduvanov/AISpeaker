@@ -1,0 +1,2 @@
+https://vb-audio.com/Cable/
+pip install sounddevice numpy flask pydub

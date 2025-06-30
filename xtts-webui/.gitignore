@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# 1) Ігноруємо бінарі в папці instruction
+instruction/*.exe
+
+# 2) Ігноруємо тимчасові папки Python
+__pycache__/
+*.py[cod]
+
+# 3) Вихідні WAV-файли пайплайну
+tts_pipeline/out_chunks/
+
+# 4) Тимчасові файли Gradio-WebUI
+xtts-webui/.gradio/
+
+# 5) IDE / Editor
+.idea/
+*.iml
+
+# 6) Ваша віртуальне оточення (якщо в корені)
+venv/
+
+# IDE
+
+.idea/
+*.iml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Gradio cache
+xtts-webui/.gradio/
+
+# Вихідні WAV
+tts_pipeline/out_chunks/
+
+# Віртуальне оточення
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+venv
+*.pyc
+deepspeed
+models
+finetune_models
+finetuned_models
+output
+temp
+speakers/**/*
+test_batch
+scripts/resemble_enhance/model_repo/
+ffmpeg
+processed
+test
+voice2voice/rvc/**/*.pth
+voice2voice/rvc/**/*.index
+voice2voice/openVoice/*.wav
+voice2voice/openVoice/*.mp3
+scripts/resemble_enhance/model_repo.zip
+*.pyc
+.env
