@@ -1,0 +1,31 @@
+НАЛАШТУВАННЯ НА КЛІЄНТІ
+
+1
+зайшли в папку tts_pipeline
+python -m venv venv
+venv/scripts/activate
+pip install -r requirements.txt
+python service.py
+
+отримали
+Loaded as API: http://127.0.0.1:8010/ ✔
+Loaded as API: http://127.0.0.1:8010/ ✔
+INFO:     Started server process [6448]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+
+
+2
+зайшли в папку VirtualMicro
+python -m venv venv
+venv/scripts/activate
+pip install -r requirements.txt
+python VirtualMicro.py
+
+отрмали
+ * Debugger is active!
+ * Debugger PIN: 126-195-108
+
+
+також  C:\AISpeaker\tts_pipeline\config.ini
+в ньому прописують змінні параметри
