@@ -3,6 +3,8 @@ http://127.0.0.1:7000/docs
 
 
 приклад запиту до service.py
-curl -X POST "http://127.0.0.1:7000/api/tts" \
-     -H "Content-Type: application/json" \
-     -d '{"text":"Привіт! Це тест озвучки частинами."}'
+curl -X POST "http://127.0.0.1:7000/api/tts"-H "Content-Type: application/json" -d '{"text":"Привіт! Це тест озвучки частинами."}'
+
+curl -X POST "http://127.0.0.1:7000/api/tts" ^
+     -H "Content-Type: application/json" ^
+     -d "{\"text\":\"Доброе утро, єто домофон сервис вас беспокоит, я звоню касательно замены домофона в подъезде, скажите какое количество ключей вам необходимо?\"}"
